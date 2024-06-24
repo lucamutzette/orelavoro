@@ -1,0 +1,41 @@
+.navBarUp{
+    width: 100%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.go-to-home{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.form{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.input-f-m{
+    width: 75%;
+}
+
+.but-send-f{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+
+
+.navBarUp{
+    width: 100%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.go-to-home{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.gestione-dati{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.areaTable{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td{
+    text-align: center;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.button-e-m{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
