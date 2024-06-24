@@ -11,6 +11,7 @@ app.use(cors())
 
 require('dotenv').config();
 const MONGO_URL = process.env.MONGO_URL;
+const PORT = process.env.PORT
 
 mongoose.connect(MONGO_URL)
 
@@ -359,6 +360,6 @@ app.post('/deleteElement', async (req, res)=>{
 })
 
 
-app.listen(3001, ()=>{
+app.listen(PORT, ()=>{
     console.log('server is runnig')
 })
